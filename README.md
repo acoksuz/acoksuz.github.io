@@ -11,7 +11,8 @@ My work focuses on:
 - **Computer Security**
 - **Explainable AI (XAI)**
 - **Adversarial Machine Learning**
-  
+
+
 
 ## 🎓 Education
 
@@ -20,6 +21,7 @@ My work focuses on:
 - M.S.,  Computer Science   | Bilkent University (August 2020)   
 - B.S.,  Computer Science   | Bilkent University (June 2017) (Minor in Psychology)
 - Erasmus+ Exchange Student | Roskilde University (June 2015)
+
 
 
 ## 💼 Experience
@@ -43,7 +45,8 @@ My work focuses on:
 - Conducted comparative analysis between the product features of video sharing platforms izlesene.com, YouTube, Dailymotion and Vimeo. Delivered a presentation to department heads and the CEO key opportunities that resulted in the adoption of 3 key product features and increasing the adaptability of the product by 30%.
 
 
-## 🔬 Publications & Projects
+
+## 🔬 Publications
 
 Find my latest research on:
 - [Google Scholar](https://scholar.google.com/citations?user=bu1zAmcAAAAJ)
@@ -54,6 +57,10 @@ This study proposes a model extraction attack that leverages explainable AI (XAI
 ### Privacy-preserving and robust watermarking on sequential genome data using belief propagation and local differential privacy
 This study proposes a robust and privacy-preserving genomic watermarking scheme that embeds identifiable markers into sequential genome data using belief propagation and local differential privacy to resist collusion and inference attacks. ([GitHub Repo](https://github.com/acoksuz/PPRW_SGD_BPLDP)) ([doi](https://doi.org/10.1093/bioinformatics/btab128))
 
+
+
+## 🔍 Projects
+
 ### Follower Analyzer 
 A graph-based data analyzer on **Matlab** to extract, evaluate and visualize follower interactions on Instagram. Utilized for keeping track of followers, follower interactions, and notify users for followers who quit following.    
 
@@ -63,12 +70,15 @@ A **Python** application that automates web scraping and ETL pipelines to extrac
 ### SpoilerBlocker 
 A Chrome extension designed to block spoiler content annotated by users on websites. Developed using **React**, **Django**, **MySQL**, and **JavaScript**, deployed via **Google Cloud**, with version control managed through **Git**. ([GitHub Repo](https://github.com/acoksuz/SpoilerBlocker))
 
+
+
 ## 📬 Contact
 If you'd like to collaborate or have any questions, feel free to reach out:
 - 📧 Email:    [acoksuz0@gmail.com](mailto:acoksuz0@gmail.com)
 - 🌐 Website:  [acoksuz.github.io](https://acoksuz.github.io)
 - 💼 LinkedIn: [https://www.linkedin.com/in/acoksuz/](https://www.linkedin.com/in/acoksuz/)
 - 🧑‍💻 GitHub:   [https://github.com/acoksuz/](https://github.com/acoksuz)
+
   
 
 Thank you for visiting! • Powered by [GitHub Pages](https://pages.github.com/)
