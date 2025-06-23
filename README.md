@@ -10,7 +10,6 @@ My work focuses on:
 - **Explainable AI (XAI)**
 - **Adversarial Machine Learning**
   
----
 
 ## 🎓 Education
 
@@ -20,7 +19,6 @@ My work focuses on:
 - B.S.,  Computer Science   | Bilkent University (June 2017) (Minor in Psychology)
 - Erasmus+ Exchange Student | Roskilde University (June 2015)
 
----
 
 ## 💼 Experience
 
@@ -36,31 +34,39 @@ My work focuses on:
 **Software Engineering Intern @ ASELSAN (_Jul 2015 – Aug 2015_)**  
 - Engineered and deployed a highly responsive user interface and control panel for military hardware. Utilized ASP.NET MVC 5 for robust back-end functionality and integrated HTML5, CSS3, and C# for a dynamic front-end design. This system was adopted as an official prototype.
  
-**Software Engineering Intern @ Nokta Medya (_Aug 2014- Sep 2014)** 
+**Software Engineering Intern @ Nokta Medya (_Aug 2014- Sep 2014_)** 
 - Developed an automated content moderation algorithm to speed up content moderation, reduced response time by 21%, and improved platform compliance using Python and data-driven insights.  
 - Tracked, analyzed, and reported daily website analytics using Google Analytics, Microsoft Excel and SQL, identifying trends that increased user engagement by 16% and retention by 12% over six months.  
 - Assisted business intelligence team to lead a search engine optimization (SEO) workshop for the management and product teams. Implemented strategies that improved organic search visibility by 26%, boosting site traffic.  
 - Conducted comparative analysis between the product features of video sharing platforms izlesene.com, YouTube, Dailymotion and Vimeo. Delivered a presentation to department heads and the CEO key opportunities that resulted in the adoption of 3 key product features and increasing the adaptability of the product by 30%.
 
----
 
 ## 🔬 Publications & Projects
 
 Find my latest research on:
 - [Google Scholar](https://scholar.google.com/citations?user=bu1zAmcAAAAJ)
 
-- 🔍 **[AUTOLYCUS](https://github.com/acoksuz/AUTOLYCUS)**  
-  A model extraction attack that leverages explainable AI (XAI) techniques to compromise interpretable models.
-  
----
+### AUTOLYCUS: Exploiting Explainable Artificial Intelligence (XAI) for Model Extraction Attacks against Interpretable Models 
+This study proposes a model extraction attack that leverages explainable AI (XAI) techniques to compromise and steal interpretable models. ([GitHub Repo](https://github.com/acoksuz/AUTOLYCUS)) ([doi](https://doi.org/10.56553/popets-2024-0137))
+
+### Privacy-preserving and robust watermarking on sequential genome data using belief propagation and local differential privacy
+This study proposes a robust and privacy-preserving genomic watermarking scheme that embeds identifiable markers into sequential genome data using belief propagation and local differential privacy to resist collusion and inference attacks. ([GitHub Repo](https://github.com/acoksuz/PPRW_SGD_BPLDP)) ([doi](https://doi.org/10.1093/bioinformatics/btab128))
+
+### Follower Analyzer 
+A graph-based data analyzer on **Matlab** to extract, evaluate and visualize follower interactions on Instagram. Utilized for keeping track of followers, follower interactions, and notify users for followers who quit following.    
+
+### Family Linker 
+A **Python** application that automates web scraping and ETL pipelines to extract structured social and familial relationship data of Northeast Ohio residents from voter registration and people finding web sites. Utilized **Jupyter**, and libraries **BeautifulSoup**, **selenium**, **chromium**, **pandas** and **numpy** to automate linkage and analysis. ([GitHub Repo](https://github.com/acoksuz/LOV))
+
+### SpoilerBlocker 
+A Chrome extension designed to block spoiler content annotated by users on websites. Developed using **React**, **Django**, **MySQL**, and **JavaScript**, deployed via **Google Cloud**, with version control managed through **Git**. ([GitHub Repo](https://github.com/acoksuz/SpoilerBlocker))
 
 ## 📬 Contact
 If you'd like to collaborate or have any questions, feel free to reach out:
-- 📧 Email: [acoksuz0@gmail.com](mailto:acoksuz0@gmail.com)
-- 🌐 Website: [acoksuz.github.io](https://acoksuz.github.io)
-- 💼 [LinkedIn](https://www.linkedin.com/in/acoksuz/)
-- 🧑‍💻 [GitHub](https://github.com/acoksuz)
+- 📧 Email:    [acoksuz0@gmail.com](mailto:acoksuz0@gmail.com)
+- 🌐 Website:  [acoksuz.github.io](https://acoksuz.github.io)
+- 💼 LinkedIn: [https://www.linkedin.com/in/acoksuz/](https://www.linkedin.com/in/acoksuz/)
+- 🧑‍💻 GitHub:   [https://github.com/acoksuz/](https://github.com/acoksuz)
   
----
 
 Thank you for visiting! • Powered by [GitHub Pages](https://pages.github.com/)
