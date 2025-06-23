@@ -16,11 +16,15 @@ My work focuses on:
 
 ## 🎓 Education
 
-- Ph.D.,	Computer Science | Case Western Reserve University (_Present_)
-- LL.B., Law	| Ankara University	(_Present_)
-- M.S., Computer Science | Bilkent University (_August 2020_)   
-- B.S., Computer Science | Bilkent University (_June 2017_) (_Minor in Psychology_)
-- Erasmus+ Exchange Student | Roskilde University (_June 2015_)
+Ph.D. in	Computer Science @ Case Western Reserve University (_Present_)
+
+LL.B. in Law	@ Ankara University	(_Present_)
+
+M.S.  in Computer Science @ Bilkent University (_August 2020_)   
+
+B.S.  in Computer Science @ Bilkent University (_June 2017_) (_Minor in Psychology_)
+
+Erasmus+ Exchange Student @ Roskilde University (_June 2015_)
 
 
 
@@ -50,19 +54,29 @@ My work focuses on:
 
 Find my latest research on: [Google Scholar](https://scholar.google.com/citations?user=bu1zAmcAAAAJ)
 
-- **AUTOLYCUS: Exploiting Explainable Artificial Intelligence (XAI) for Model Extraction Attacks against Interpretable Models**: This study proposes a model extraction attack that leverages explainable AI (XAI) techniques to compromise and steal interpretable models. ([GitHub Repo](https://github.com/acoksuz/AUTOLYCUS)) ([doi](https://doi.org/10.56553/popets-2024-0137))
+### AUTOLYCUS: Exploiting Explainable Artificial Intelligence (XAI) for Model Extraction Attacks against Interpretable Models
 
-- **Privacy-preserving and robust watermarking on sequential genome data using belief propagation and local differential privacy**: This study proposes a robust and privacy-preserving genomic watermarking scheme that embeds identifiable markers into sequential genome data using belief propagation and local differential privacy to resist collusion and inference attacks. ([GitHub Repo](https://github.com/acoksuz/PPRW_SGD_BPLDP)) ([doi](https://doi.org/10.1093/bioinformatics/btab128))
+This study proposes a model extraction attack that leverages explainable AI (XAI) techniques to compromise and steal interpretable models. ([GitHub Repo](https://github.com/acoksuz/AUTOLYCUS)) ([doi](https://doi.org/10.56553/popets-2024-0137))
+
+### Privacy-preserving and robust watermarking on sequential genome data using belief propagation and local differential privacy
+
+This study proposes a robust and privacy-preserving genomic watermarking scheme that embeds identifiable markers into sequential genome data using belief propagation and local differential privacy to resist collusion and inference attacks. ([GitHub Repo](https://github.com/acoksuz/PPRW_SGD_BPLDP)) ([doi](https://doi.org/10.1093/bioinformatics/btab128))
 
 
 
 ## 🔍 Projects
 
-- **Follower Analyzer**: A graph-based data analyzer on **Matlab** to extract, evaluate and visualize follower interactions on Instagram. Utilized for keeping track of followers, follower interactions, and notify users for followers who quit following.    
+### Follower Analyzer
 
-- **Family Linker**: A **Python** application that automates web scraping and ETL pipelines to extract structured social and familial relationship data of Northeast Ohio residents from voter registration and people finding web sites. Utilized **Jupyter**, and libraries **BeautifulSoup**, **selenium**, **chromium**, **pandas** and **numpy** to automate linkage and analysis. ([GitHub Repo](https://github.com/acoksuz/LOV))
+A graph-based data analyzer on **Matlab** to extract, evaluate and visualize follower interactions on Instagram. Utilized for keeping track of followers, follower interactions, and notify users for followers who quit following.    
 
-- **Spoiler Blocker**: A Chrome extension designed to block spoiler content annotated by users on websites. Developed using **React**, **Django**, **MySQL**, and **JavaScript**, deployed via **Google Cloud**, with version control managed through **Git**. ([GitHub Repo](https://github.com/acoksuz/SpoilerBlocker))
+### Family Linker
+
+A **Python** application that automates web scraping and ETL pipelines to extract structured social and familial relationship data of Northeast Ohio residents from voter registration and people finding web sites. Utilized **Jupyter**, and libraries **BeautifulSoup**, **selenium**, **chromium**, **pandas** and **numpy** to automate linkage and analysis. ([GitHub Repo](https://github.com/acoksuz/LOV))
+
+### Spoiler Blocker
+
+A Chrome extension designed to block spoiler content annotated by users on websites. Developed using **React**, **Django**, **MySQL**, and **JavaScript**, deployed via **Google Cloud**, with version control managed through **Git**. ([GitHub Repo](https://github.com/acoksuz/SpoilerBlocker))
 
 
 
