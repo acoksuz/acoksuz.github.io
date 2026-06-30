@@ -2,69 +2,68 @@
 
 Welcome to my personal academic webpage! 
 
-I am a Ph.D. candidate in Computer Science at Case Western Reserve University, with a strong focus on machine learning security, privacy, and adversarial robustness. My research centers around black-box threats against machine learning models such as model extraction and label-only membership inference attacks, particularly under realistic, resource-constrained scenarios. I also explore how explainable AI (XAI) techniques can inadvertently leak sensitive model information, and how such vulnerabilities can be exploited and mitigated.
-
-I develop attack frameworks and privacy-preserving mechanisms across various domains including genomic data, web platforms, and ML-as-a-Service environments. I actively build tools and conduct evaluations that push the boundaries of adversarial machine learning research while maintaining a strong interest in policy, ethics, and law through my parallel legal education.
+I am a Ph.D. candidate and Callahan Fellow in Computer Science at Case Western Reserve University specializing in the security and privacy of machine learning. My research evaluates how models behave after deployment, especially through realistic black-box interfaces that expose only limited outputs, and studies privacy leakage and adversarial vulnerabilities via explainable AI, model extraction, membership inference, model inversion, and privacy risk quantification. 
 
 My work focuses on:
 - **Privacy**
-- **Computer Security**
 - **Explainable AI (XAI)**
 - **Adversarial Machine Learning**
-
+- **Artificial Intelligence and Machine Learning (AI/ML)**
 
 
 ## 🎓 Education
 
 Ph.D. in	Computer Science @ Case Western Reserve University (_Present_)
 
-LL.B. in Law	@ Ankara University	(_Present_)
+M.S.  in Computer Engineering @ Bilkent University (_August 2020_)   
 
-M.S.  in Computer Science @ Bilkent University (_August 2020_)   
-
-B.S.  in Computer Science @ Bilkent University (_June 2017_) (_Minor in Psychology_)
+B.S.  in Computer Engineering @ Bilkent University (_June 2017_) (_Minor in Psychology_)
 
 Erasmus+ Exchange Student @ Roskilde University (_June 2015_)
-
 
 
 ## 💼 Experience
 
 **Graduate Researcher @ Case Western Reserve University (_Aug 2021 – present_)**  
-- Assisted courses of Data Structures, and Data Privacy by grading and tutoring.  
-- Built a novel model extraction attack framework leveraging Explainable AI (XAI) tools LIME and SHAP to replicate black-box models from MLaaS platforms (Google Cloud, IBM Watson). Reduced query overhead by up to 240x on select datasets. Utilized Python, scikit-learn, NumPy, Pandas, Git, and containerized deployment via Docker. [GitHub Repo](https://github.com/acoksuz/AUTOLYCUS)  
-- Implemented a query-efficient, label-only membership inference framework on neural networks using active-learning and transfer-learning-based model extraction. Performed hyperparameter optimization via grid search, integrated privacy defenses (DP-SGD, adversarial training, L2 regularization), and managed model training workflows with PyTorch.
+
+- Developing a **model inversion framework** to reconstruct sensitive training data from face recognition models (e.g., FaceNet) for privacy risk quantification, leveraging generative AI techniques including diffusion models (e.g., DDPM, conditional diffusion) built with PyTorch and Hugging Face, and gradient-based explanation methods (e.g., layer-wise relevance propagation, class activation maps). Pipeline is containerized and runs on GPU-accelerated HPC clusters (SLURM, Tesla V100).
+- Developed a query-efficient, black-box, label-only **membership inference framework** using active and transfer learning. Reduced per-sample query cost from hundreds of online queries to a single query by training a surrogate under a fixed budget (active + transfer learning). Achieved up to a 1000x reduction in query overhead compared to prior label-only membership inference attacks, with models tuned via grid search, applied defenses (DP-SGD, L2 regularization), and networks trained in PyTorch. [GitHub Repo](https://github.com/acoksuz/LoMime) (Private, will be public after publication)
+- Developed a **model extraction framework** on Python by exploiting LIME and SHAP to steal black-box MLaaS models (in Google Cloud, Amazon SageMaker, IBM Watson) under restrictive threat models and reduced query overhead by up to 240x. Built Dockerized pipeline for containerization with unit/integration tests and deployed it on GitHub. [GitHub Repo](https://github.com/acoksuz/AUTOLYCUS)
+- Applied extensive prompt engineering and LLM-assisted workflows (e.g., Anthropic and OpenAI models) to write, reproduce, and edit research artifacts, experiment scripts, and paper figures, accelerating the research and engineering cycle. The developed frameworks are integrated into an NSF-funded cyberinfrastructure project, deployed across supercomputer and HPC systems as privacy quantification tools.
 
 **Graduate Researcher @ Bilkent University (_Sep 2017 – Aug 2020_)**  
-- Assisted courses of Introduction to Programming I & II, and Artificial Intelligence by grading and tutoring.  
-- Developed a privacy-preserving watermarking scheme for genomic data, using local differential privacy (LDP) in MATLAB. Achieved up to 80% detection rate with under 5% utility loss against collusion attacks. [GitHub Repo](https://github.com/acoksuz/PPRW_SGD_BPLDP)
+- Developed a privacy-preserving **genomic watermarking framework** on MATLAB using local differential privacy and belief propagation for GDPR/HIPAA compliant data sharing, and achieved 80% detection with under 5% utility loss against collusion attacks. [GitHub Repo](https://github.com/acoksuz/PPRW_SGD_BPLDP)
 
 **Software Engineering Intern @ ASELSAN (_Jul 2015 – Aug 2015_)**  
-- Engineered and deployed a highly responsive user interface and control panel for military hardware. Utilized ASP.NET MVC 5 for robust back-end functionality and integrated HTML5, CSS3, and C# for a dynamic front-end design. This system was adopted as an official prototype.
+- Developed a prototype responsive **UI and control panel** for a telecommunication hardware using ASP.NET MVC 5 and C#.
  
 **Software Engineering Intern @ Nokta Medya (_Aug 2014- Sep 2014_)** 
-- Developed an automated content moderation algorithm to speed up content moderation, reduced response time by 21%, and improved platform compliance using Python and data-driven insights.  
-- Tracked, analyzed, and reported daily website analytics using Google Analytics, Microsoft Excel and SQL, identifying trends that increased user engagement by 16% and retention by 12% over six months.  
-- Assisted business intelligence team to lead a search engine optimization (SEO) workshop for the management and product teams. Implemented strategies that improved organic search visibility by 26%, boosting site traffic.  
-- Conducted comparative analysis between the product features of video sharing platforms izlesene.com, YouTube, Dailymotion and Vimeo. Delivered a presentation to department heads and the CEO key opportunities that resulted in the adoption of 3 key product features and increasing the adaptability of the product by 30%.
-
+- Assisted SEO workshops and B2C field studies; analyzed web traffic and user behavior on hosted video sharing platforms using Google Analytics, Excel, and SQL. Conducted competitive analysis on major video streaming platforms to identify strategies for improving organic search visibility and on-site engagement. Presented data-driven findings through data storytelling to stakeholders from diverse backgrounds, including upper management and the CEO, contributing to the adoption of three product features.
 
 
 ## 🔬 Publications
 
-Find my latest research on: [Google Scholar](https://scholar.google.com/citations?user=bu1zAmcAAAAJ)
+Find my latest research at: [Google Scholar](https://scholar.google.com/citations?user=bu1zAmcAAAAJ)
 
-### AUTOLYCUS: Exploiting Explainable Artificial Intelligence (XAI) for Model Extraction Attacks against Interpretable Models
+### LoMime: Query-Efficient Membership Inference using Model Extraction in Label-Only Settings (2026)
+
+This study proposes a query-efficient membership inferfence attack that leverages surrogate models and active learning. ([GitHub Repo](https://github.com/acoksuz/LoMime)) ([doi](https://doi.org/10.48550/arXiv.2602.18934))
+
+### AUTOLYCUS: Exploiting Explainable Artificial Intelligence (XAI) for Model Extraction Attacks against Interpretable Models (2024)
 
 This study proposes a model extraction attack that leverages explainable AI (XAI) techniques to compromise and steal interpretable models. ([GitHub Repo](https://github.com/acoksuz/AUTOLYCUS)) ([doi](https://doi.org/10.56553/popets-2024-0137))
 
-### Privacy-preserving and robust watermarking on sequential genome data using belief propagation and local differential privacy
+### Privacy-preserving and robust watermarking on sequential genome data using belief propagation and local differential privacy (2021)
 
 This study proposes a robust and privacy-preserving genomic watermarking scheme that embeds identifiable markers into sequential genome data using belief propagation and local differential privacy to resist collusion and inference attacks. ([GitHub Repo](https://github.com/acoksuz/PPRW_SGD_BPLDP)) ([doi](https://doi.org/10.1093/bioinformatics/btab128))
 
 
 
 ## 🔍 Projects
+
+### Essay Grading (NLP)
+
+A supervised NLP system that grades short essays based on writing style, trained on existing essays and their grades using **WordNet**-based lexical features. Built during graduate NLP coursework.
 
 ### Follower Analyzer
 
